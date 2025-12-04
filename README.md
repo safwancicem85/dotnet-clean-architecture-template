@@ -7,12 +7,12 @@
 A clean, modular, production-ready starter for building .NET APIs in minutes — not days.
 
 🚀 Why this exists
+Stop wasting days setting up architecture.
 
-## Stop wasting days setting up architecture.
 ## With this starter, your project is instantly ready:
 * Clean Architecture
-* Layered structure
 * Optional DDD-ready flow
+* Generic Controller (built-in CRUD controller included)
 * Generic service (no CRUD code needed)
 * EF Core migrations
 * Example module included
