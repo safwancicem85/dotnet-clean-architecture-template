@@ -32,30 +32,7 @@ Detailed explanations and examples that make onboarding smooth even for junior d
 
 This template follows a **Clean Architecture** style using clear boundaries:
 
-```
-┌──────────────────────────────────────────────────────┐
-│                   Presentation (API)                 │
-| - Controllers, Filters, Services                     |
-| - Startup.cs, Program.cs                             |
-├──────────────────────────────────────────────────────┤
-│                   Application Layer                  │
-│  - Domain & Events, Common, Helper                   │
-│  - Interfaces, Services, Mapping                     │
-├──────────────────────────────────────────────────────┤
-│                  Infrastructure Layer                │
-│  - EF Core, Migrations                               │
-|  - Seed Data, Design Time, Unit Of Work              |
-│  - Repositories & Integrations                       │
-├──────────────────────────────────────────────────────┤
-│                   Domain Layer                       │
-│  - Entities, Value Objects                           │
-│  - Repo Interfaces                                   │
-├──────────────────────────────────────────────────────┤
-│                  Common Layer                        │
-│  - Common Models, DTOs                               │
-|  - Enums, Helpers, Constants                         |
-└──────────────────────────────────────────────────────┘
-```
+<img width="959" height="445" alt="image" src="https://github.com/user-attachments/assets/4708b527-fd27-400e-be68-3ce630f9a0f4" />
 
 Clean boundaries. No accidental cross-references. Easy to test. Enterprise-ready.
 
